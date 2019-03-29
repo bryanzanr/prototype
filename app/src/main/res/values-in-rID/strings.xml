@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prototipe</string>
+    <string name="title_health_detail">Detil Kesehatan</string>
+
+    <string name="welcome">Selamat Datang ke </string>
+    <string name="term">Syarat &amp; Ketentuan</string>
+    <string name="sign">Daftar</string>
+    <string name="login">Masuk</string>
+
+    <string name="name">Nama</string>
+    <string name="ttl">Tempat Tanggal Lahir</string>
+    <string name="add">Alamat</string>
+    <string name="job">Pekerjaan</string>
+    <string name="ktp">Nomor KTP</string>
+    <string name="id">Identifikasi Pengguna</string>
+    <string name="pass">Kata Sandi</string>
+    <string name="up">Unggah KTP</string>
+    <string name="con">Kondisi Kesehatan Anda</string>
+    <string name="num">1 2 3 4 5 6 7 8 9 10</string>
+    <string name="agg">Dengan ini saya menyatakan \n
+        bahwa data yang isi \n
+        adalah data yang sebenar\n
+        -benarnya dan dapat digunakan \n
+        untuk kepentingan penyelamatan \n
+        saat bencana</string>
+    <string name="sub">Submit</string>
+
+    <string name="title_home">Prioritas</string>
+    <string name="title_dashboard">Keselamatan</string>
+    <string name="title_notifications">Peta</string>
+    <string name="title_search">Cari</string>
+    <string name="title_save">Simpan</string>
+
+    <string name="submit">Detil</string>
+    <string name="dokumen">Titik Keselamatan</string>
+    <string name="gambar">Foto</string>
+    <string name="faq">Tempat</string>
+
+    <string name="nav_header_title">Tim Penyelamatan 1</string>
+    <string name="nav_header_subtitle">kontak@contoh</string>
+
+    <string name="back">&lt; Kembali</string>
+
+    <string name="res">Bambang Suryono</string>
+    <string name="age">50 tahun (2.3 km)</string>
+    <string name="dis">5 menit dengan berjalan kaki</string>
+</resources>

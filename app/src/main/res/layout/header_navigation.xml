@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:padding="@dimen/high">
+
+        <LinearLayout
+                android:id="@+id/lin"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    app:srcCompat="@mipmap/ic_launcher_round"
+                    android:id="@+id/iv_prof_pic"
+                    android:layout_width="@dimen/prof"
+                    android:layout_height="@dimen/prof" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/high"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nav_header_title"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/label"/>
+
+                <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nav_header_subtitle"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/label"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<TextView android:layout_width="match_parent"-->
+                  <!--android:text="@string/submit"-->
+                  <!--android:layout_marginTop="@dimen/margin"-->
+                  <!--android:layout_below="@+id/lin"-->
+                  <!--android:textSize="@dimen/menu"-->
+                  <!--android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"-->
+                  <!--android:textColor="@color/white"-->
+                  <!--android:layout_height="wrap_content"/>-->
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/tv_my_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/high"
+            android:text="@string/title_home"
+            android:drawablePadding="@dimen/margin"
+            android:drawableStart="@drawable/love"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/menu"/>
+
+    <TextView
+            android:id="@+id/tv_my_ask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/high"
+            android:text="@string/dokumen"
+            android:drawablePadding="@dimen/margin"
+            android:drawableStart="@drawable/ic_bookmark_black_24dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/menu"/>
+
+    <TextView
+            android:id="@+id/tv_my_kpi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/high"
+            android:drawablePadding="@dimen/margin"
+            android:drawableStart="@drawable/ic_photo_camera_black_24dp"
+            android:text="@string/gambar"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/menu"/>
+
+    <TextView
+            android:id="@+id/tv_my_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/high"
+            android:text="@string/faq"
+            android:drawablePadding="@dimen/margin"
+            android:drawableStart="@drawable/ic_map_black_24dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/menu"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:text="@string/term"
+              android:layout_marginTop="@dimen/foot"
+              android:layout_gravity="center"
+              android:textColor="@color/colorPrimaryDark"
+              android:textSize="@dimen/label"
+              android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+        <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+              <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+              <!--android:layout_width="match_parent"-->
+              <!--android:layout_height="@dimen/nav_header_height"-->
+              <!--android:background="@color/light_blue"-->
+              <!--android:gravity="bottom"-->
+              <!--android:orientation="vertical"-->
+              <!--android:paddingLeft="@dimen/fab_margin"-->
+              <!--android:paddingTop="@dimen/fab_margin"-->
+              <!--android:paddingRight="@dimen/fab_margin"-->
+              <!--android:paddingBottom="@dimen/fab_margin"-->
+              <!--android:theme="@style/ThemeOverlay.AppCompat.Dark">-->
+
+    <!--<ProgressBar-->
+            <!--android:id="@+id/image_progress"-->
+            <!--style="?android:attr/progressBarStyleLarge"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:visibility="gone"/>-->
+
+    <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+            <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/user"-->
+            <!--android:layout_marginTop="@dimen/margin"-->
+            <!--android:layout_marginStart="@dimen/margin"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toEndOf="@+id/imageView"-->
+            <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+            <!--android:text="@string/nav_header_title"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
+
+    <!--<TextView-->
+            <!--android:id="@+id/textView"-->
+            <!--android:layout_below="@+id/user"-->
+            <!--android:layout_marginStart="@dimen/margin"-->
+            <!--android:layout_toEndOf="@+id/imageView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="@string/nav_header_subtitle" />-->
+
+    <!--<TextView android:layout_width="wrap_content"-->
+              <!--android:text="@string/term"-->
+              <!--android:layout_marginTop="@dimen/fab_margin"-->
+              <!--android:layout_gravity="bottom"-->
+              <!--android:textColor="@color/colorPrimaryDark"-->
+              <!--android:textSize="@dimen/label"-->
+              <!--android:layout_height="wrap_content"/>-->
+
+<!--</RelativeLayout>-->

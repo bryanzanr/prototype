@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="title_health_detail">Health Detail</string>
+
+    <string name="welcome">Welcome to</string>
+    <string name="term">Terms &amp; Conditions</string>
+    <string name="sign">Sign Up</string>
+    <string name="login">Login</string>
+
+    <string name="name">Name</string>
+    <string name="ttl">Date of Birth</string>
+    <string name="add">Address</string>
+    <string name="job">Occupation</string>
+    <string name="ktp">ID Number</string>
+    <string name="id">UserID</string>
+    <string name="pass">Password</string>
+    <string name="up">Upload ID</string>
+    <string name="con">Your Health Condition</string>
+    <string name="num">1 2 3 4 5 6 7 8 9 10</string>
+    <string name="agg">I hereby declare \n
+        that data that is content \n
+        is true data \n
+        and can be used for the benefit of salvation \n
+        during a disaster
+    </string>
+    <string name="sub">Submit</string>
+
+    <string name="title_home">Priority</string>
+    <string name="title_dashboard">Safety</string>
+    <string name="title_notifications">Maps</string>
+    <string name="title_search">Search</string>
+    <string name="title_save">Save</string>
+
+    <string name="submit">Details</string>
+    <string name="dokumen">Safety Point</string>
+    <string name="gambar">Photos</string>
+    <string name="faq">Places</string>
+
+    <string name="nav_header_title">Rescue Team 1</string>
+    <string name="nav_header_subtitle">contact@examol</string>
+
+    <string name="back">&lt; Back</string>
+    
+    <string name="res">John Doe</string>
+    <string name="age">50 years old (2.3 miles)</string>
+    <string name="dis">5.2 mins by walking</string>
+</resources>
